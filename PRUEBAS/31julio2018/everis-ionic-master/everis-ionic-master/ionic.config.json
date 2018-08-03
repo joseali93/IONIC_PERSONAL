@@ -1,0 +1,7 @@
+{
+  "name": "everis-ionic",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
