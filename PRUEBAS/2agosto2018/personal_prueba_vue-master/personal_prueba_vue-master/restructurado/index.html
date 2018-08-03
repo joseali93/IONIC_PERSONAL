@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Way Logistic</title>
+    <script src="https://use.fontawesome.com/57a1e93edf.js"></script>
+    <!--
+            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCg0ofGR4zUE78qeSw8iEVNwWpWXWXvQjA&libraries=places"></script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCg0ofGR4zUE78qeSw8iEVNwWpWXWXvQjA"></script>
+    AIzaSyDZgUCkS2mQWKHQiHfT_O9DQ56DAb1YhJ0
+    AIzaSyCuL8WE1tAKU63oc1FMDFRnsai7Zn6l75s
+    AIzaSyCg0ofGR4zUE78qeSw8iEVNwWpWXWXvQjA
+    AIzaSyBhQG_hwmVtfUPAs-aMCRYQ_H2etQMbGBY
+-->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhQG_hwmVtfUPAs-aMCRYQ_H2etQMbGBY&libraries=places"></script>
+
+    
+
+    <!--
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+ -->
+    <!--
+    <link rel="stylesheet" href="src/libs/css/bootstrap.min.4.css">
+ -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.0.3/sweetalert2.css">
+    -->
+    <script src="https://unpkg.com/sweetalert2@7.19.0/dist/sweetalert2.all.js"></script>
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.0.1/css/toastr.css" rel="stylesheet" />
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="https://d19m59y37dris4.cloudfront.net/dashboard/1-1/vendor/bootstrap/css/bootstrap.min.css">
+    <!-- Font Awesome CSS-->
+    <link rel="stylesheet" href="https://d19m59y37dris4.cloudfront.net/dashboard/1-1/vendor/font-awesome/css/font-awesome.min.css">
+    <!-- Custom icon font-->
+    <link rel="stylesheet" href="https://d19m59y37dris4.cloudfront.net/dashboard/1-1/css/fontastic.css">
+    <!-- Google fonts - Roboto -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
+    <!-- jQuery Circle-->
+    <link rel="stylesheet" href="https://d19m59y37dris4.cloudfront.net/dashboard/1-1/css/grasp_mobile_progress_circle-1.0.0.min.css">
+    <!-- Custom Scrollbar-->
+    <link rel="stylesheet" href="https://d19m59y37dris4.cloudfront.net/dashboard/1-1/vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css">
+    <!-- theme stylesheet-->
+    <link rel="stylesheet" href="https://d19m59y37dris4.cloudfront.net/dashboard/1-1/css/style.default.css" id="theme-stylesheet">
+    <!--
+<link id="stylesheet" rel="stylesheet" href="../assets/libs/style.default.css">
+-->
+    <!-- Favicon-->
+    
+<link rel="shortcut icon" href="/lib/img/favicon.png">
+
+</head>
+
+<body>
+    <div id="app"></div>
+
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/sweetalert2@7.19.0/dist/sweetalert2.all.js"></script>
+    <!--
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+        -->
+        <script
+  src="https://code.jquery.com/jquery-1.12.4.min.js"
+  integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+  crossorigin="anonymous"></script>
+  <!--
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+   
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.0.1/js/toastr.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+    <!-- Javascript files-->
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js">
+    </script>
+    <script src="https://d19m59y37dris4.cloudfront.net/dashboard/1-1/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://d19m59y37dris4.cloudfront.net/dashboard/1-1/vendor/jquery.cookie/jquery.cookie.js">
+    </script>
+    <script src="https://d19m59y37dris4.cloudfront.net/dashboard/1-1/js/grasp_mobile_progress_circle-1.0.0.min.js"></script>
+    <script src="https://d19m59y37dris4.cloudfront.net/dashboard/1-1/vendor/jquery-validation/jquery.validate.min.js"></script>
+    <script src="https://d19m59y37dris4.cloudfront.net/dashboard/1-1/vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="https://d19m59y37dris4.cloudfront.net/dashboard/1-1/js/front.js"></script>
+
+    <!-- LIBRERIA PARA EXPORTAR EXCEL PERSONALIZADOS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/alasql/0.4.4/alasql.min.js"></script>
+
+    <script src="/dist/build.js"></script>
+</body>
+
+</html>
