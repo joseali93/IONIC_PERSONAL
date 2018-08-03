@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Login
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-list>
+    <ion-item>
+      <ion-icon name="home"></ion-icon>
+      <ion-input type="text" placeholder="Usuario" autocomplete="false" [(ngModel)]="username"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-icon name="home"></ion-icon>
+      <ion-input type="password" placeholder="Contraseña" autocomplete="false" [(ngModel)]="password"></ion-input>
+    </ion-item>
+  </ion-list>
+
+  <button ion-button block padding color="light" (click)="login()">Ingresar</button>
+</ion-content>
